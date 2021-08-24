@@ -83,6 +83,7 @@ namespace OpenIdDict.Controllers
                 }
 
                 var claimsPrincipal = new ClaimsPrincipal(identity);
+                
                 //claimsPrincipal.SetScopes(new string[]
                 //{
                 //    OpenIddictConstants.Scopes.Roles,
@@ -90,6 +91,7 @@ namespace OpenIdDict.Controllers
                 //    OpenIddictConstants.Scopes.Email,
                 //    OpenIddictConstants.Scopes.Profile,
                 //});
+                
                 claimsPrincipal.SetScopes(new string[]
                 {
                     OpenIddictConstants.Scopes.OfflineAccess
