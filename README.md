@@ -1,4 +1,4 @@
-# Token based authentication using Open Iddict without database
+# Token based authentication using OpenIddict for ASP.NET Core 5 API (ASP.NET 5)
 As of this application implemented using OpenIddict 3.0's degraded mode with Steam authentication integration. This implementation no need entity frame work and database connection. 
 
 # Generating token using client credentials :
